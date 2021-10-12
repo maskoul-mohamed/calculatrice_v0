@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="solicode"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-10-12 10:54:00 "/>
+        <attribute name="created" value="c29saWNvZGU7REVTS1RPUC01NkkyNjdCOzIwMjEtMTAtMTI7IjA5OjM0OjM5ICI7MzAzMA=="/>
+        <attribute name="edited" value="c29saWNvZGU7REVTS1RPUC01NkkyNjdCOzIwMjEtMTAtMTI7IjEwOjU0OjAwICI7MTszMTIw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x" type="Integer" array="False" size=""/>
+            <declare name="y" type="Integer" array="False" size=""/>
+            <output expression="&quot;entrer un nombre X: &quot;" newline="False"/>
+            <input variable="x"/>
+            <output expression="&quot;Entrer un nombre Y: &quot;" newline="True"/>
+            <input variable="y"/>
+            <output expression="&quot;r&#233;sultat: &quot;" newline="False"/>
+            <output expression="y + x" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
