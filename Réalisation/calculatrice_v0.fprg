@@ -4,9 +4,9 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="solicode"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2021-10-12 12:00:11 "/>
+        <attribute name="saved" value="2021-10-12 01:13:44 "/>
         <attribute name="created" value="c29saWNvZGU7REVTS1RPUC01NkkyNjdCOzIwMjEtMTAtMTI7IjExOjAxOjEwICI7MzAwNg=="/>
-        <attribute name="edited" value="c29saWNvZGU7REVTS1RPUC01NkkyNjdCOzIwMjEtMTAtMTI7IjEyOjAwOjExICI7MTszMTE1"/>
+        <attribute name="edited" value="c29saWNvZGU7REVTS1RPUC01NkkyNjdCOzIwMjEtMTAtMTI7IjAxOjEzOjQ0ICI7MjszMTI0"/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -15,11 +15,8 @@
             <declare name="y" type="Integer" array="False" size=""/>
             <declare name="operation" type="String" array="False" size=""/>
             <declare name="result" type="Real" array="False" size=""/>
-            <output expression="&quot;Entrer un nombre x: &quot;" newline="False"/>
             <input variable="x"/>
-            <output expression="&quot;Entrer un nombre y: &quot;" newline="False"/>
             <input variable="y"/>
-            <output expression="&quot;operation: &quot;" newline="False"/>
             <input variable="operation"/>
             <if expression="operation == &quot;+&quot;">
                 <then>
